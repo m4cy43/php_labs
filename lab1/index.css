@@ -1,0 +1,45 @@
+body,
+header,
+.login-form,
+.register-form,
+.logout-form,
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+main {
+  margin: 10px;
+  padding: 10px;
+}
+
+h2 {
+  margin: 5px;
+}
+
+.button {
+  margin-top: 5px;
+}
+
+.login-form,
+.register-form,
+.logout-form {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+p {
+  height: fit-content;
+  word-wrap: break-word;
+  overflow: auto;
+  width: 160px;
+}

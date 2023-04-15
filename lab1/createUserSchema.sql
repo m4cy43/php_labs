@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS users;
+CREATE TABLE IF NOT EXISTS `users`.`users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(24) NOT NULL,
+  `password` VARCHAR(24) NOT NULL,
+  PRIMARY KEY (`id`));
