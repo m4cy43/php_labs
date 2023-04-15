@@ -1,6 +1,6 @@
 # How to use this app
 
-## Download and setap php
+## Download and setup php
 
 This app is running on the localhost. To use this app you need to install php from the official site and do next steps:
 
@@ -13,6 +13,8 @@ This app is running on the localhost. To use this app you need to install php fr
 - In windows find 'Edit the system enciroments virable'. Click 'Advanced' tab, then 'Enviroment variables'. In 'System variables' section find and chose 'Path', than click 'Edit' button. In new window click 'New' and add path to 'php-_version_' folder (for exmple 'C:\Program Files\php-8.2.4') and click 'Ok' in all windows
 
 ## Creating database schema
+
+We need to create database schema and table to use this app:
 
 - Open the project folder with IDE (optional)
 - Start your MySql client
